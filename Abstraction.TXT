@@ -1,0 +1,29 @@
+Abstraction
+An essential element of object-oriented programming is abstraction. Humans manage
+complexity through abstraction. For example, people do not think of a car as a set of tens
+of thousands of individual parts. They think of it as a well-defined object with its own
+unique behavior. This abstraction allows people to use a car to drive to the grocery store
+without being overwhelmed by the complexity of the parts that form the car. They can
+ignore the details of how the engine, transmission, and braking systems work. Instead,
+they are free to utilize the object as a whole.
+A powerful way to manage abstraction is through the use of hierarchical classifications.
+This allows you to layer the semantics of complex systems, breaking them into more
+manageable pieces. From the outside, the car is a single object. Once inside, you see that
+the car consists of several subsystems: steering, brakes, sound system, seat belts, heating,
+cellular phone, and so on. In turn, each of these subsystems is made up of more specialized
+units. For instance, the sound system consists of a radio, a CD player, and/or a tape or MP3
+player. The point is that you manage the complexity of the car (or any other complex
+system) through the use of hierarchical abstractions.
+Hierarchical abstractions of complex systems can also be applied to computer programs.
+The data from a traditional process-oriented program can be transformed by abstraction
+into its component objects. A sequence of process steps can become a collection of messages
+between these objects. Thus, each of these objects describes its own unique behavior. You
+can treat these objects as concrete entities that respond to messages telling them to do
+something. This is the essence of object-oriented programming.
+Object-oriented concepts form the heart of Java just as they form the basis for human
+understanding. It is important that you understand how these concepts translate into
+programs. As you will see, object-oriented programming is a powerful and natural paradigm
+for creating programs that survive the inevitable changes accompanying the life cycle of any
+major software project, including conception, growth, and aging. For example, once you
+have well-defined objects and clean, reliable interfaces to those objects, you can gracefully
+decommission or replace parts of an older system without fear

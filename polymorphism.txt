@@ -1,0 +1,23 @@
+Polymorphism
+Polymorphism (from Greek, meaning “many forms”) is a feature that allows one interface to
+be used for a general class of actions. The specific action is determined by the exact nature
+of the situation. Consider a stack (which is a last-in, first-out list). You might have a program
+that requires three types of stacks. One stack is used for integer values, one for floatingpoint values, and one for characters. The algorithm that implements each stack is the same,
+even though the data being stored differs. In a non–object-oriented language, you would be
+required to create three different sets of stack routines, with each set using different names.
+However, because of polymorphism, in Java you can specify a general set of stack routines
+that all share the same names.
+
+More generally, the concept of polymorphism is often expressed by the phrase “one
+interface, multiple methods.” This means that it is possible to design a generic interface to a
+group of related activities. This helps reduce complexity by allowing the same interface to
+be used to specify a general class of action. It is the compiler’s job to select the specific action
+(that is, method) as it applies to each situation. You, the programmer, do not need to make
+this selection manually. You need only remember and utilize the general interface.
+Extending the dog analogy, a dog’s sense of smell is polymorphic. If the dog smells a
+cat, it will bark and run after it. If the dog smells its food, it will salivate and run to its bowl.
+The same sense of smell is at work in both situations. The difference is what is being smelled,
+that is, the type of data being operated upon by the dog’s nose! This same general concept
+can be implemented in Java as it applies to methods within a Java program.
+
+

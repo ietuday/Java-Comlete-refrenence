@@ -1,10 +1,12 @@
-class Light{
-    public static void main(String args[]) {
+package javaDemo;
+
+class Light {
+    public static void main(final String args[]) {
         int lightSpeed;
         long days;
         long seconds;
         long distance;
-         // approximate speed of light in miles per second
+        // approximate speed of light in miles per second
         lightSpeed = 186000;
         days = 1000;
         seconds = days * 24 * 60 * 60;

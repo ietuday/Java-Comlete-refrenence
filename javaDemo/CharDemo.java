@@ -1,5 +1,7 @@
-class CharDemo{
-    public static void main(String args[]) {
+package javaDemo;
+
+class CharDemo {
+    public static void main(final String args[]) {
         char ch1, ch2;
         ch1 = 88; // code for X
         ch2 = 'Y';

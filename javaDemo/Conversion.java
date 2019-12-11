@@ -1,8 +1,10 @@
+package javaDemo;
+
 class Conversion {
-    public static void main(String args[]) {
+    public static void main(final String args[]) {
         byte b;
         int i = 257;
-        double d = 323.142;
+        final double d = 323.142;
         System.out.println("\nConversion of int to byte. ");
         b = (byte) i;
         System.out.println("i and b " + i + " " + b);

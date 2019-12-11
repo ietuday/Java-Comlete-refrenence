@@ -1,12 +1,14 @@
+package javaDemo;
+
 class Promation {
-    public static void main(String args[]) {
-        byte b = 42;
-        char c = 'a';
-        short s = 1024;
-        int i = 50000;
-        float f = 5.67f;
-        double d = .1234;
-        double result = (f * b) + (i / c) - (d * s);
+    public static void main(final String args[]) {
+        final byte b = 42;
+        final char c = 'a';
+        final short s = 1024;
+        final int i = 50000;
+        final float f = 5.67f;
+        final double d = .1234;
+        final double result = (f * b) + (i / c) - (d * s);
         System.out.println((f * b) + " + " + (i / c) + " - " + (d * s));
         System.out.println("result = " + result);
     }

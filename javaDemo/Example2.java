@@ -1,5 +1,7 @@
-class Example2{
-    public static void main(String args[]) {
+package javaDemo;
+
+class Example2 {
+    public static void main(final String args[]) {
         int num;
         num = 100;
         System.out.println("This is num: " + num);
